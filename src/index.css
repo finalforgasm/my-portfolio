@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* or your preferred font */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* 1. The Fix: A deep, dark blue-grey gradient instead of pure black */
+  background: radial-gradient(circle at 50% 50%, #111827 0%, #000000 100%);
+  color: white;
+}
+/* --- PASTE THIS AT THE BOTTOM --- */
+@layer utilities {
+  @keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
