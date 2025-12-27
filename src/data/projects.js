@@ -47,7 +47,7 @@ export const projects = [
   },
   {
     title: "AI Game Agent (Go)", // formerly "Mini Go Game with AI Agents" [cite: 23]
-    description: "Designed a strategic game engine with an AI agent capable of making legal, tactical moves. Built on PyGame, setting the foundation for advanced Reinforcement Learning experiments.",
+    description: "Designed a strategic game algorithm with an AI agent capable of making legal, tactical moves. Built on PyGame, setting the foundation for advanced Reinforcement Learning experiments.",
     tech: ["Game AI", "Reinforcement Learning", "PyGame", "Python"],
     link: "#",
     github: "https://github.com/finalforgasm/AI-Agent-GO-"
@@ -61,14 +61,14 @@ export const projects = [
   },
   {
     title: "Real-Time OCR Engine", // formerly "OCR and image processing web application" [cite: 28]
-    description: "Engineered a text extraction system using OpenCV and Flask. Implemented advanced image preprocessing (noise reduction, grayscale) to maximize recognition accuracy on raw input.",
+    description: "Developed a text extraction system using OpenCV and Flask. Implemented advanced image preprocessing (noise reduction, grayscale) to maximize recognition accuracy on raw input.",
     tech: ["OpenCV", "Flask", "Computer Vision", "Python"],
     link: "#",
     github: "https://github.com/finalforgasm/Python-OCR "
   },
   {
     title: "Scalable E-Commerce Platform", // formerly "E-Commerce Site Development" 
-    description: "Developed a full-stack marketplace with optimized database schemas. Implemented stored procedures in MySQL for efficient inventory management and order processing.",
+    description: "Contributed to a full-stack marketplace with optimized database schemas. Implemented stored procedures in MySQL for efficient inventory management and order processing.",
     tech: ["Full Stack", "MySQL", "Flask", "Database Design"],
     link: "#",
     github: "https://github.com/finalforgasm/E-commerce-site"
