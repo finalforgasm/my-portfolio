@@ -66,11 +66,12 @@ const Contact = () => {
         <div className="text-center px-4 relative z-10 max-w-3xl mx-auto">
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">
-            Ready to build something <span className="text-blue-500">great?</span>
+            Open to building <span className="text-blue-500">together.</span>
           </h2>
 
           <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
-             I'm actively looking for internships and full-time roles in Data Science and Software Engineering. Let's turn ideas into reality.
+             I’m always open to thoughtful discussions around data, algorithms, and scalable software systems, 
+  as well as opportunities for collaboration and learning. Let’s connect and see where conversations lead.
           </p>
 
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
@@ -80,7 +81,7 @@ const Contact = () => {
               href="mailto:saivardhankasuba@gmail.com" 
               className="px-10 py-4 bg-blue-600 text-white rounded-full font-bold shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all hover:shadow-[0_0_35px_rgba(37,99,235,0.7)] hover:-translate-y-1 text-lg min-w-[200px]"
             >
-              Contact Me 📩
+              Contact Me
             </a>
 
             {/* Secondary Action */}

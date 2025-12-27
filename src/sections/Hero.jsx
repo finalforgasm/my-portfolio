@@ -200,7 +200,7 @@ const Hero = () => {
                 </a>
                 
                 <a href="#contact" className="border border-white/30 text-white py-3 px-8 rounded-full font-medium hover:bg-white/10 transition backdrop-blur-sm">
-                    Let's Talk
+                    Let's Connect!
                 </a>
             </div>
         </div>

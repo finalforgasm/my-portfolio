@@ -57,7 +57,7 @@ export const projects = [
     description: "Built an AI-powered news retrieval system using LangChain and FAISS. It ingests web articles, vectorizes them with OpenAI embeddings, and allows users to ask context-aware questions.",
     tech: ["LangChain", "FAISS", "OpenAI", "RAG"],
     link: "#",
-    github: "#"
+    github: "#" 
   },
   {
     title: "Real-Time OCR Engine", // formerly "OCR and image processing web application" [cite: 28]

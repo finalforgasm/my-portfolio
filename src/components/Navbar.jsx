@@ -38,7 +38,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             <span className="text-blue-500">.</span>
           </a> */}
             <a href="#home" className="font-mono text-xl font-bold text-white flex items-center gap-0.5">
-            Adithya
+            Portfolio
             <span className="w-2.5 h-5 bg-blue-500 animate-pulse block ml-1"></span>
             </a>
 
