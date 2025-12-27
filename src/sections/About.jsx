@@ -93,16 +93,16 @@ const About = () => {
           {/* Left Column: The Narrative (Wider margin for readability) */}
           <div className="space-y-8 text-gray-300">
             <p className="text-lg leading-relaxed font-light">
-              Hello! I’m a final-year Computer Science student passionate about solving complex problems using data, algorithms, and clean, reliable code.
+              I am a final-year student with a strong interest in solving complex problems through data-driven analysis, algorithmic thinking, and clean, reliable software design.
             </p>
             <p className="text-lg leading-relaxed font-light">
-              My journey began with programming fundamentals and systems thinking, and gradually evolved into a strong interest in <strong className="text-blue-400 font-semibold">Data Science</strong>, <strong className="text-blue-400 font-semibold">Machine Learning</strong> and <strong className="text-blue-400 font-semibold"> scalable software systems</strong>.
+              My academic journey began with a focus on programming fundamentals and systems thinking, and has since evolved into a strong interest in <strong className="text-blue-400 font-semibold">Data Science</strong>, <strong className="text-blue-400 font-semibold">Machine Learning</strong> and <strong className="text-blue-400 font-semibold"> scalable software systems</strong>.
             </p>
             <p className="text-lg leading-relaxed font-light">
              I enjoy working at the intersection of analysis and engineering, where data-driven insights translate into practical solutions.
             </p>
             <p className="text-lg leading-relaxed font-light">
-              Outside of coding, I love exploring new technologies, playing badminton and cricket, watching movies, and creating digital art.
+              Outside of coding, I enjoy exploring emerging technologies, reading non-fiction focused on technology and systems., playing competitive sports and analyzing films from a storytelling perspective.
             </p>
           </div>
 
@@ -114,22 +114,32 @@ const About = () => {
                  <h3 className="text-2xl font-bold text-white">Education</h3>
               </div>
               
-              <div className="mb-8">
-                  <p className="text-blue-400 font-bold text-xl mb-1">B.E. in Mechanical Engineering</p>
+              {/* <div className="mb-8">
+                  <p className="text-blue-400 font-bold text-xl mb-1">B.E. in Mechanical Engineering.</p>
                   <p className="text-gray-400 text-lg">BITS Pilani (2022 - 2026)</p>
-              </div>
+              </div> */}
+              <div className="mb-8">
+              <p className="text-blue-400 font-bold text-xl mb-1">B.E. in Mechanical Engineering</p>
               
+              {/* Added Minor Line */}
+              <p className="text-lg text-gray-400 italic mb-2">
+                Minor in Computing and Intelligence
+              </p>
+              
+              <p className="text-gray-400 text-lg">BITS Pilani (2022 - 2026)</p>
+            </div>
               <div>
                   <p className="font-semibold text-gray-300 mb-4 text-base">Relevant Coursework:</p>
                   
                   {/* Tags are slightly larger now */}
                   <div className="flex flex-wrap gap-3">
                     {[
-                      "Data Structures", 
-                      "Algorithms", 
+                      "Data Structures and Algorithms",  
                       "Databases", 
                       "Machine Learning & AI", 
-                      "Probability & Statistics"
+                      "Probability & Statistics",,
+                      "Supply Chain Management",
+                      "Quality Control and Reliability"
                     ].map((course, index) => (
                         <span key={index} className="px-4 py-2 bg-blue-500/10 text-blue-300 rounded-full text-sm font-medium border border-blue-500/20 hover:bg-blue-500/20 transition">
                             {course}

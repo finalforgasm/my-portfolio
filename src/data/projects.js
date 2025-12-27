@@ -39,23 +39,23 @@
 
 export const projects = [
   {
-    title: "RAG News Intelligence", // formerly "Intelligent News Article QA System" [cite: 32]
-    description: "Built an AI-powered news retrieval system using LangChain and FAISS. It ingests web articles, vectorizes them with OpenAI embeddings, and allows users to ask context-aware questions.",
-    tech: ["LangChain", "FAISS", "OpenAI", "RAG"],
-    link: "#",
-    github: "#"
-  },
-  {
     title: "Neural Robotic Kinematics", // formerly "Inverse Kinematics... using Neural Networks" [cite: 36]
     description: "Developed a Deep Learning model to solve inverse kinematics for robotic manipulators (2R/3R/7R). Used PyTorch to predict joint angles with high precision, optimizing robotic control.",
     tech: ["PyTorch", "Robotics", "Neural Networks", "Python"],
     link: "#",
-    github: "#"
+    github: "\https://github.com/finalforgasm/Manipulator-DL-models"
   },
   {
     title: "AI Game Agent (Go)", // formerly "Mini Go Game with AI Agents" [cite: 23]
     description: "Designed a strategic game engine with an AI agent capable of making legal, tactical moves. Built on PyGame, setting the foundation for advanced Reinforcement Learning experiments.",
     tech: ["Game AI", "Reinforcement Learning", "PyGame", "Python"],
+    link: "#",
+    github: "https://github.com/finalforgasm/AI-Agent-GO-"
+  },
+  {
+    title: "RAG News Intelligence", // formerly "Intelligent News Article QA System" [cite: 32]
+    description: "Built an AI-powered news retrieval system using LangChain and FAISS. It ingests web articles, vectorizes them with OpenAI embeddings, and allows users to ask context-aware questions.",
+    tech: ["LangChain", "FAISS", "OpenAI", "RAG"],
     link: "#",
     github: "#"
   },
@@ -64,13 +64,13 @@ export const projects = [
     description: "Engineered a text extraction system using OpenCV and Flask. Implemented advanced image preprocessing (noise reduction, grayscale) to maximize recognition accuracy on raw input.",
     tech: ["OpenCV", "Flask", "Computer Vision", "Python"],
     link: "#",
-    github: "#"
+    github: "https://github.com/finalforgasm/Python-OCR "
   },
   {
     title: "Scalable E-Commerce Platform", // formerly "E-Commerce Site Development" 
     description: "Developed a full-stack marketplace with optimized database schemas. Implemented stored procedures in MySQL for efficient inventory management and order processing.",
     tech: ["Full Stack", "MySQL", "Flask", "Database Design"],
     link: "#",
-    github: "#"
+    github: "https://github.com/finalforgasm/E-commerce-site"
   }
 ];
